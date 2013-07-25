@@ -1,3 +1,11 @@
 <strings>
 	<string id="30010">Toggle Local</string>
+	<string id="30011">Remote Mode</string>
+	<string id="30012">Local Mode</string>
+	<string id="30013">Complete. Restart XBMC</string>
+	<string id="30014">File does not exist</string>
+	
+	<string id="30020">General</string>
+	<string id="30021">Remote Settings File</string>
+	<string id="30022">Local Settings File</string>
 </strings>

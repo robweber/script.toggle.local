@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <settings>
-	<category id="general" label="30011">
-		<setting id="remote_filename" type="file" default="special://masterprofile/advancedsettings.remote.xml" label="Remote File" visible="true" />
-		<setting id="local_filename" type="file" default="special://masterprofile/advancedsettings.local.xml" label="Local File" visible="true" />
+	<category id="general" label="30020">
+		<setting id="remote_filename" type="file" default="special://masterprofile/advancedsettings.remote.xml" label="30021" visible="true" />
+		<setting id="local_filename" type="file" default="special://masterprofile/advancedsettings.local.xml" label="30022" visible="true" />
 	</category>
 </settings>
