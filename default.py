@@ -10,7 +10,7 @@ class Toggle:
     def run(self):
         mode = xbmcgui.Dialog().select(utils.getString(30010),[utils.getString(30011),utils.getString(30012)])
 
-        copyComplete = True
+        copyComplete = False
         if(mode == self.REMOTE_MODE):
             copyComplete = self._copyFile(utils.getSetting('remote_filename'))
         elif(mode == self.LOCAL_MODE):
@@ -19,7 +19,10 @@ class Toggle:
         
         if(copyComplete):
             #prompt the user to restart xbmc
-            restartXbmc = xbmcgui.Dialog().ok(utils.getString(30010),"",utils.getString(30013))
+            restartXbmc = xbmcgui.Dialog().yesno(utils.getString(30010),"",utils.getString(30013))
+
+            if(restartXbmc):
+                xbmc.restart();
 
     def _copyFile(self,filename):
         utils.log("copying " + filename + " to advancedsettings.xml")
