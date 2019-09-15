@@ -1,3 +1,7 @@
+Version 0.0.3
+
+record the current mode for display
+
 Version 0.0.2
 
 update to Gotham python version
