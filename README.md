@@ -1,6 +1,8 @@
 script.toggle.local
 ===================
 
+__Kodi Version Compatibility:__ Kodi 13.x (Gotham) and greater
+
 This script was created for a very specific need I had from some of my xbmc clients. Specificically for tablet and phone installations I have the following two use cases: 
 
 1. using them at home and needing access to the home network sources and mysql database
