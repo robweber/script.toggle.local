@@ -8,4 +8,7 @@
 	<string id="30020">General</string>
 	<string id="30021">Remote Settings File</string>
 	<string id="30022">Local Settings File</string>
+	<string id="30023">Unknown</string>
+	<string id="30024">The current mode is:</string>
+	<string id="30025">Would you like to change it?</string>
 </strings>
