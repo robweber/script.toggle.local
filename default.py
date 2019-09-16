@@ -17,7 +17,7 @@ class Toggle:
         self._openFile()
     
     def run(self):
-        
+
         currentMode = {
             self.REMOTE_MODE: utils.getString(30011),
             self.LOCAL_MODE: utils.getString(30012),
@@ -43,7 +43,12 @@ class Toggle:
                 restartXbmc = xbmcgui.Dialog().yesno(utils.getString(30010),"",utils.getString(30013))
     
                 if(restartXbmc):
-                    xbmc.restart();
+                    
+                    #on windows just restart the app
+                    if(xbmc.getCondVisibility('System.Platform.Windows')):
+                        xbmc.executebuiltin('RestartApp()')
+                    else:
+                        xbmc.restart();
 
     def _copyFile(self,filename):
         utils.log("copying " + filename + " to advancedsettings.xml")
@@ -76,6 +81,11 @@ class Toggle:
             self.jsonObj = {"mode":self.UNKNOWN_MODE}
             
     def _writeFile(self):
+        
+        #make the data dir if it doesn't exist
+        if(not xbmcvfs.exists(utils.data_dir())):
+            xbmcvfs.mkdir(utils.data_dir())
+        
         f = xbmcvfs.File(self.fileLoc,'w')
         
         f.write(json.dumps(self.jsonObj))
