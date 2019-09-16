@@ -20,4 +20,4 @@ When running the addon you can select which "state" you want your Kodi instance 
 
 ### Attributions
 
-Folder Icon by (Jojo Mendoza)[https://www.iconfinder.com/hopstarter] - (Creative Commons Attribution-NonCommercial 3.0 Unported license)[https://creativecommons.org/licenses/by-nc/3.0/legalcode]
+Folder Icon by [Jojo Mendoza](https://www.iconfinder.com/hopstarter) - [Creative Commons Attribution-NonCommercial 3.0 Unported license](https://creativecommons.org/licenses/by-nc/3.0/legalcode)
