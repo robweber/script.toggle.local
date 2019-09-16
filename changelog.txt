@@ -2,6 +2,7 @@ Version 0.0.4
 
 make data dir if it doesn't exist
 use restartapp() on windows
+added icon
 
 Version 0.0.3
 

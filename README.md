@@ -13,4 +13,9 @@ This addon can toggle between these two states by renaming advancedsetting.xml f
 * advancedsettings.local.xml
 * advancedsettings.remote.xml
 
-When running the addon you can select which "state" you want your xbmc instance to be a part of. This will remove the current advancedsettings.xml information and rename the correct file. Once xbmc is restarted your new settings will take place. 
+When running the addon you can select which "state" you want your xbmc instance to be a part of. This will remove the current advancedsettings.xml information and rename the correct file. Once xbmc is restarted your new settings will take place.
+
+
+### Attributions
+
+Folder Icon by (Jojo Mendoza)[https://www.iconfinder.com/hopstarter] - (Creative Commons Attribution-NonCommercial 3.0 Unported license)[https://creativecommons.org/licenses/by-nc/3.0/legalcode]
