@@ -2,6 +2,8 @@
 # Addon Name: Toggle Local
 # Addon id: script.toggle.local
 # Addon Provider: robweber
+msgid ""
+msgstr ""
 "Language: en\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
