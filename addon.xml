@@ -1,16 +1,21 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="script.toggle.local"
-    name="Toggle Local" version="0.0.4" provider-name="robweber">
+    name="Toggle Local" version="0.1.0" provider-name="robweber">
   <requires>
-    <import addon="xbmc.python" version="2.14.0"/>
+    <import addon="xbmc.python" version="2.24.0"/>
   </requires>
   <extension point="xbmc.python.script" library="default.py"> 
      <provides>executable</provides> 
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Toggle between remote and local xbmc states</summary>
-    <description lang="en">Renames local and remote advancedsettings files to toggle between using mysql or local databases</description>
+    <summary lang="en_GB">Toggle between remote and local Kodi states</summary>
+    <description lang="en_GB">Renames local and remote advancedsettings files to toggle between using mysql or local databases</description>
     <platform>all</platform>
     <language></language>
+    <license>The MIT License</license>
+    <forum>https://github.com/robweber/script.toggle.local/issues</forum>
+    <source>https://github.com/robweber/script.toggle.local</source>
+    <news>Version 0.0.4
+    </news>
   </extension>
 </addon>
