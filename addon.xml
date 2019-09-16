@@ -15,6 +15,9 @@
     <license>The MIT License</license>
     <forum>https://github.com/robweber/script.toggle.local/issues</forum>
     <source>https://github.com/robweber/script.toggle.local</source>
+    <assets>
+    	<icon>resources/images/icon.png</icon>
+    </assets>
     <news>Version 1.2 Updated for Krypton
     </news>
   </extension>
