@@ -1,6 +1,8 @@
 script.toggle.local
 ===================
 
+[![Build Status](https://travis-ci.org/robweber/script.toggle.local.svg?branch=master)](https://travis-ci.org/robweber/script.toggle.local/)
+
 __Kodi Version Compatibility:__ Kodi 13.x (Gotham) and greater
 
 This script was created for a very specific need I had from some of my xbmc clients. Specificically for tablet and phone installations I have the following two use cases: 
