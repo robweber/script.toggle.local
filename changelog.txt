@@ -1,6 +1,7 @@
 Version 0.1.2
 
 make krypton+ compatible
+logging should be debug by default
 
 Version 0.1.0
 
