@@ -1,0 +1,80 @@
+# Kodi Media Center language file
+# Addon Name: Toggle Local
+# Addon id: script.toggle.local
+# Addon Provider: robweber
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "Addon Summary"
+msgid ""
+"Toggle between remote and local xbmc states"
+msgstr "Toggle between remote and local xbmc states"
+
+msgctxt "Addon Description"
+msgid ""
+"Renames local and remote advancedsettings files to toggle between using mysql or local databases"
+msgstr "Renames local and remote advancedsettings files to toggle between using mysql or local databases"
+
+msgctxt "#30010"
+msgid "Toggle Local"
+msgstr "Toggle Local"
+
+msgctxt "#30011"
+msgid "Remote Mode"
+msgstr "Remote Mode"
+
+msgctxt "#30012"
+msgid "Local Mode"
+msgstr "Local Mode"
+
+msgctxt "#30013"
+msgid "Complete. Restart XBMC"
+msgstr "Complete. Restart XBMC"
+
+msgctxt "#30014"
+msgid "File does not exist"
+msgstr "File does not exist"
+
+msgctxt "#30015"
+msgid ""
+msgstr ""
+
+msgctxt "#30016"
+msgid ""
+msgstr "e"
+
+msgctxt "#30017"
+msgid ""
+msgstr ""
+
+msgctxt "#30018"
+msgid ""
+msgstr ""
+
+msgctxt "#30019"
+msgid ""
+msgstr ""
+
+msgctxt "#30020"
+msgid "General"
+msgstr "General"
+
+msgctxt "#30021"
+msgid "Remote Settings File"
+msgstr "Remote Settings File"
+
+msgctxt "#30022"
+msgid "Local Settings File"
+msgstr "Local Settings File"
+
+msgctxt "#30023"
+msgid "Unknown"
+msgstr "Unknown"
+
+msgctxt "#30024"
+msgid "The current mode is:"
+msgstr "The current mode is:"
+
+msgctxt "#30025"
+msgid "Would you like to change it?"
+msgstr "Would you like to change it?"
