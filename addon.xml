@@ -16,7 +16,6 @@
     <assets>
     	<icon>resources/images/icon.png</icon>
     </assets>
-    <news>
-    </news>
+    <news>Updated for Kodi Matrix</news>
   </extension>
 </addon>

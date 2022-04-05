@@ -3,7 +3,7 @@ import xbmcaddon
 import xbmcgui
 import xbmcvfs
 
-__addon_id__= 'script.toggle.local'
+__addon_id__ = 'script.toggle.local'
 __Addon = xbmcaddon.Addon(__addon_id__)
 
 
