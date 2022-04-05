@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
+## Version 2.0
+
+### Changed
+
+- updated for Kodi Matrix Python library changes
+- updated changelog to a markdown file
+- updated README file
+
+### Fixed
+
+- updated code for Python3 compatibility
+
 ## Version 0.1.2
 
 ### Changes
