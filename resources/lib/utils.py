@@ -28,7 +28,7 @@ def getSetting(name):
 
 
 def setSetting(name, value):
-    __Addon.setSetting(name,value)
+    __Addon.setSetting(name, value)
 
 
 def getString(string_id):
