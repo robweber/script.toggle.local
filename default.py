@@ -53,15 +53,15 @@ class Toggle:
     def _copyFile(self, filename):
         utils.log("copying " + filename + " to advancedsettings.xml")
 
-        if(xbmcvfs.exists(xbmc.translatePath(filename))):
-            advanced_settings = xbmc.translatePath('special://profile/advancedsettings.xml')
+        if(xbmcvfs.exists(xbmcvfs.translatePath(filename))):
+            advanced_settings = xbmcvfs.translatePath('special://profile/advancedsettings.xml')
 
             # if advancedsettings already exists, delete it
             if(xbmcvfs.exists(advanced_settings)):
                 xbmcvfs.delete(advanced_settings)
 
             # copy the new file
-            xbmcvfs.copy(xbmc.translatePath(filename), advanced_settings)
+            xbmcvfs.copy(xbmcvfs.translatePath(filename), advanced_settings)
 
             return True
         else:
