@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="script.toggle.local"
-    name="Toggle Local" version="0.2.0" provider-name="robweber">
+    name="Toggle Local" version="0.2.1" provider-name="robweber">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
   </requires>
@@ -9,13 +9,12 @@
     <summary lang="en_GB">Toggle between remote and local Kodi states</summary>
     <description lang="en_GB">Renames local and remote advancedsettings files to toggle between using mysql or local databases</description>
     <platform>all</platform>
-    <language></language>
     <license>MIT</license>
     <forum>https://github.com/robweber/script.toggle.local/issues</forum>
     <source>https://github.com/robweber/script.toggle.local</source>
     <assets>
     	<icon>resources/images/icon.png</icon>
     </assets>
-    <news>Updated for Kodi Matrix</news>
+    <news>Updated for Kodi Omega</news>
   </extension>
 </addon>
